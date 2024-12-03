@@ -1,6 +1,7 @@
 mod commons;
 
 use crate::solutions::commons::*;
+
 pub fn part1(path: &str) -> usize {
     let (left_ids, right_ids) = prepare_file(path);
     let mut diff: Vec<usize> = Vec::new();
